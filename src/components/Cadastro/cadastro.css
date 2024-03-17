@@ -1,0 +1,63 @@
+.cadastro{
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+section{
+    position: relative;
+    width: 573.33px;
+    border: 2px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-left: 35%;
+}
+
+.nome{
+    width: 200px;
+    height: 60px;
+}
+
+.email{
+    width: 200px;
+    height: 60px;
+}
+
+.numTel{
+    width: 200px;
+    height: 60px;
+}
+
+.senha{
+    width: 200px;
+    height: 60px;
+}
+
+h1{
+    font-size: 2rem;
+    color: #1C0051;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    width: 475px;
+}
+
+.contEmail{
+   width: 480px;
+   height: 40px;
+   margin-top: 16px;
+   border-radius: 5px;
+   background-color: #2E4DE6;
+   color: #ffffff;
+}
+
+
+
+
+

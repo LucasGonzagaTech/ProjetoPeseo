@@ -1,0 +1,12 @@
+button{
+    width: 480px;
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 5px;
+    background-color: #2E4DE6;
+    color: #ffffff;
+}
+
+p{
+    margin: 1px;
+}
