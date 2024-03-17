@@ -7,15 +7,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import Header from './components/Header/Header';
-import Cadastro from './components/Cadastro/Cadastro';
-import Home from './components/Home/Home';
-import Login from './components/Login/Login'
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-         <Home/>
-         <Login/>
+        <Header/>
     </div>
   );
 }

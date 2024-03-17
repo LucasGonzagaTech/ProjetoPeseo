@@ -1,0 +1,37 @@
+
+.divContainer{
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.custom_nav_link{
+    color: #666666;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.custom_nav_link:hover{
+    color: #2222FF;
+}
+
+.button-Accouny{
+    background-color: #FFFFFF;
+    color: #2222FF;
+}
+
+.button-Accouny:hover{
+    background-color: #2222FF;
+}
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .button-Accouny {
+        margin:2px 0px 2px 0px;
+    }
+}
