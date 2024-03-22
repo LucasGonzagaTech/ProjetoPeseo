@@ -1,41 +1,31 @@
-import React from "react"
-import logo from '../../img/logo.png'
-import { Row, Col, Container, Nav, Navbar, Button } from "react-bootstrap";
-import style from './header.module.css'
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import React from "react";
+import logo from '../../img/logo.png';
+import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import { faUser, faBars  } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './header.css';
 
 const Header = () => {
+
+
     return (
-        <Navbar  fixed="top" expand="lg" className={style.contNav}>
-            <Container >
-
-                <Row>
-                    <Col>
-                        <Navbar.Brand href="#home">
-                            <img src={logo} alt="Logo" fluit />
-                        </Navbar.Brand> 
-                    </Col>
-                    </Row>
-
-                    <Row>
-                    <Col>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link href="#Trilhas"  className={style.custom_nav_link}>Trilhas</Nav.Link>
-                                <Nav.Link href="#Quem somos" className={style.custom_nav_link}>Quem somos</Nav.Link>
-                                <Nav.Link  className={style.custom_nav_link}>|</Nav.Link>
-                                <Nav.Link href="#Entrar" className={style.custom_nav_link}>Entrar</Nav.Link>
-                            </Nav>
-                            <Button variant="primary" className={ style.btnAccouny }> 
-                            <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Criar Conta
-                            </Button>
-                        </Navbar.Collapse>
-                    </Col>
-                </Row>
-
+        <Navbar className="divContainer" sticky="top" fixed="top" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home" className="me-auto">
+                    <img src={logo} alt="Logo" fluid />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <Nav.Link href="#Trilhas" className="custom_nav_link">Como a Plataforma Funciona</Nav.Link>
+                        <Nav.Link href="#QuemSomos" className="custom_nav_link">Quem somos</Nav.Link>
+                        <Nav.Link className="hide-on-mobile">|</Nav.Link>
+                        <Nav.Link href="#Entrar" className="custom_nav_link">Entrar</Nav.Link>
+                    </Nav>
+                    <Button className="button-Accouny" variant="primary">
+                        <FontAwesomeIcon icon={faUser} /> Criar Conta
+                    </Button>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );

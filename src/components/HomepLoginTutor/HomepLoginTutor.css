@@ -1,0 +1,22 @@
+.postaAula{
+    width: 250px;
+    height: 350px;
+    background-color: #E9EEF6;
+    align-items: center;
+    text-align: center;
+}
+.containerPostarAula{
+    display: flex;
+    margin-top: 10%;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 16%;
+}
+.right{
+    border-right: solid 2px black;
+}
+.left{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
