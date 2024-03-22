@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './header.css';
 
 const Header = () => {
-
-
+    
     return (
         <Navbar className="divContainer" sticky="top" fixed="top" expand="lg">
             <Container>
