@@ -7,8 +7,8 @@
 
 .custom_nav_link{
     color: #666666;
-    font-weight: 400;
-    margin-right: 10px;
+    font-weight: bold;
+    margin-right:1em;
 }
 
 .custom_nav_link:hover{
@@ -17,21 +17,28 @@
 
 .button-Accouny{
     background-color: #FFFFFF;
-    color: #2222FF;
+    color: #666666;
+    border-color: #666666
 }
 
 .button-Accouny:hover{
     background-color: #2222FF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .hide-on-mobile {
         display: none;
+    }
+
+    .custom_nav_link{
+        margin: 0.5em 0em 0.5em 0em;
+        font-size: 1.125em;
+    }
+    .button-Accouny {
+        margin:0.5em 0em 0.5em 0em;
+        font-size: 1.125em;
     }
 }
 
 @media (max-width: 800px) {
-    .button-Accouny {
-        margin:2px 0px 2px 0px;
-    }
 }
