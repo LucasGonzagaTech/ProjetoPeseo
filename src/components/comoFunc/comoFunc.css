@@ -1,0 +1,23 @@
+.Main_Como_Func{
+    display: flex;
+    flex-direction: column;
+}
+.div_Para_Graduando{
+    display: flex;
+    align-items: center;
+}
+
+.div_Para_Graduando2{
+    display: flex;
+    align-items: center
+}
+
+.div_Para_Aluno{
+    display: flex;
+    align-items: center
+}
+
+.div_Para_Aluno2{
+    display: flex;
+    align-items: center
+}
