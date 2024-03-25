@@ -6,17 +6,26 @@
     text-align: center;
 }
 .containerPostarAula{
+    margin-right: 210px;
     display: flex;
-    margin-top: 10%;
-    width: 30%;
-    justify-content: space-between;
-    margin-left: 16%;
+    margin-top: 5%;
 }
+
 .right{
-    border-right: solid 2px black;
+    border-right: solid 2px rgb(82, 82, 82);
+    margin-left: 110px;
 }
-.left{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+@media (max-width: 768px) {
+    .right{
+      margin-left: 20px; /* Reduzir a margem para telas menores */
+    }
+  }  
+
+  .left{
+    margin-left: 50px;
+  }
+  @media (max-width: 768px) {
+    .left{
+      margin-left: 20px; /* Reduzir a margem para telas menores */
+    }
+  } 

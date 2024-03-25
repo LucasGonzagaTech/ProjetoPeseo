@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
-import img from "../../img/uploadVideo.png"
+import img from "../../img/user.png"
+import img2 from "../../img/uploadVideo.png"
 import Header from "../Header/Header"
 import "./HomepLoginTutor.css"
 import { Button } from "react-bootstrap";
@@ -29,7 +30,7 @@ export default ()=>{
     <h2>Meu painel</h2>
 
         <div className="postaAula">
-        <img src={img}/>
+        <img src={img2}/>
         <p>Anexe sua aula</p>
         <Button variant="outline-primary">Enviar aula</Button>{' '}
 

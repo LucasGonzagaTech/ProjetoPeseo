@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './home.css'
 import imgG1 from '../../img/homeimg/HomeMulher.png'
 import imgG2 from '../../img/homeimg/home1.png'
@@ -6,10 +7,12 @@ import imgG3 from '../../img/homeimg/home8.png'
 import imgG4 from '../../img/homeimg/home7.png'
 import imgG5 from '../../img/homeimg/home6.png'
 import { Button, Container, } from 'react-bootstrap';
+import Header from '../Header/Header';
 
 function Home() {
     return(
         <main>
+            <Header/>
             <Container>
                 <div className='geral1'>
                     <div className='imgG1'>

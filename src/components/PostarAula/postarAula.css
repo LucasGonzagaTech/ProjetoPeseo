@@ -1,0 +1,63 @@
+.postarAula{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.inputImagem{
+    width:500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.putAula{
+    display: flex;
+}
+
+.leftPostarAula{
+    margin-left: 110px;
+    border-right: solid 1px gray;
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .leftPostarAula{
+      margin-left: 20px; /* Reduzir a margem para telas menores */
+    }
+  }
+
+  .rightPostarAula{
+    margin-left: 50px;
+  }
+  @media (max-width: 768px) {
+    .rightPostarAula{
+      margin-left: 20px; /* Reduzir a margem para telas menores */
+    }
+  } 
+
+  .h1PostarAula{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .txtUpload{
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .outline{
+    border-bottom: solid 1px black;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .infoUpload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
