@@ -1,0 +1,127 @@
+
+
+
+/* colocar a fonte paão da pagina que ainda falta */
+
+/* main{
+    background-color: black;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* parte inicial imagem mulher grande */
+.geral1{
+    margin-top: 100px;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.btng1Topo{
+    background-color: #2122ff;
+    color: #ffff; 
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: #2122ff;
+    margin-bottom: 20px;
+}
+
+.btng1baixo{
+    background-color: #ffff;
+    color: #2122ff; 
+    width: 500px;
+    height: 40px;
+    border: solid 1px #2122ff;
+
+    border-radius: 7px;
+
+}
+
+.g1sub{
+    display: inline;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+
+/* colocar a fonte e aumentar o tamanho da pagina */
+.g1sub h1{
+
+}
+
+
+.geral2{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.geral2 h1{
+    color: #c6ff00;
+}
+
+.geral3{
+    background-color: #f6f4fe;
+}
+
+.margin{
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.geral3 h1{
+    color: #7e57c2;
+}
+
+.geral4{
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.geral4 h1{
+    color: #f49e0c;
+}
+.geral5{
+    background-color: #ebfff2;
+}
+
+.geral5 h1{
+    color: #92e3a9;
+}
+
+.imgG5{
+    justify-content: center;
+    align-items: center;
+}
+
+.geral6 h1{
+    color: #2122ff;
+}
+
+.imgG6p1 {
+    width: 300px;
+}
+
+.gp1, gp2, gp3{
+    display: flex;
+    justify-content: center;
+}
+
+.gp1{
+    background-color: #21f0ff;
+    
+}
+.geral7 h1{
+    color: #2122ff;
+}
+
