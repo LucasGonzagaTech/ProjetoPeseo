@@ -1,12 +1,12 @@
-/* .cadastro{
+.cadastro{
     align-items: center;
     justify-content: center;
     flex-flow: column;
 }
 
-section{
+.section{
     position: relative;
-    width: 573.33px;
+    width: 573px;
     border: 2px solid;
     border-radius: 10px;
     backdrop-filter: blur(55px);
@@ -14,38 +14,56 @@ section{
     justify-content: center;
     align-items: center;
     padding: 2rem 3rem;
-    margin-left: 35%;
+    margin-left: 25%;
+    border-color: #D8DDE4;
+    padding: 90px;
 }
 
 .nome{
     width: 200px;
     height: 60px;
+    margin: 2%;
+    
 }
 
 .email{
     width: 200px;
     height: 60px;
+    margin: 2%;
 }
 
 .numTel{
     width: 200px;
     height: 60px;
+    margin: 2%;
 }
 
 .senha{
     width: 200px;
     height: 60px;
+    margin: 2%;
 }
 
-h1{
+.criaConta{
     font-size: 2rem;
-    color: #1C0051;
-    text-align: center;
+    color: #2222FF;
+    /* text-align: center; */
     padding: 10px;
+    margin: 2%;
 }
 
-input{
+.confirmaSenha{
+    margin: 2%;
+}
+
+
+.input{
     width: 475px;
+    height: 35px;
+    /* background-color: #D8DDE4; */
+    border: solid 2px #D8DDE4;
+    border-radius: 7px;
+    
 }
 
 .contEmail{
@@ -57,7 +75,8 @@ input{
    color: #ffffff;
 }
 
+.container1{
+    margin-top: 4%;
+}
 
 
-
- */

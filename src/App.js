@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Páginas
 import Header from './components/Header/Header';
-import Home from './components/Home/Home'
+import Home from './components/pgInicial/PgInicial';
 
 import Login from './components/Login/Login'
 import Cadastro from './components/Cadastro/Cadastro'
