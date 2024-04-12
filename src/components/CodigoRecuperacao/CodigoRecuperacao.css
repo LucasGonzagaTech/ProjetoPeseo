@@ -1,0 +1,52 @@
+.envio{
+    width: 475.64px;
+    height: 40px;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: #2E4DE6;
+    color: #ffffff;
+   
+   
+}
+
+.texto{
+    font-size: 2rem;
+    color: #2E4DE6;
+    padding: 10px;
+    font-size: 43px;
+}
+
+.recuperacao2{
+    position: relative;
+    width: 573.33px;
+    border: 2px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-left: 35%;
+    border-color: #D8DDE4;
+    padding: 100px;
+}
+
+.containercodigo{
+    margin-top: 7%;   
+    margin-left: 10%;
+}
+.imagemOk{
+    width: 60px;
+    height: 60px;
+
+}
+
+.p{
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+#divrecuperacao{
+    display: flex;
+    padding:17px;
+}

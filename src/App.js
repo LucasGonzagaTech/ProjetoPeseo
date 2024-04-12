@@ -19,6 +19,7 @@ import Recuperacao from './components/Recuperacao/Recuperacao'
 import Catalogo from './components/Catalogo/Catalogo';
 import HomepLoginTutor from './components/HomepLoginTutor/HomepLoginTutor';
 import PostarAula from './components/PostarAula/PostarAula';
+import CodigoRecuperacao from './components/CodigoRecuperacao/CodigoRecuperacao';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Cadastro/>} />
       <Route path='*' element={<h1>Not Found</h1>} />
 
       <Route path='/login' element={<Login/>} />
@@ -37,6 +38,7 @@ function App() {
       <Route path='/catalogo' element={<Catalogo/>} />
       <Route path='/home-tutor' element={<HomepLoginTutor/>} />
       <Route path='/postar-aula' element={<PostarAula/>} />
+      <Route path='/codigorecuperacao' element={<CodigoRecuperacao/>}/>
       
     </Routes>
     </BrowserRouter>

@@ -2,6 +2,8 @@ import React from 'react';
 import './Login.css'
 import Header from '../Header/Header';
 import { Container } from 'react-bootstrap';
+import Google from '../../img/Googlelogin.png';
+import Linha from '../../img/Separator.png';
 
 function Login() {
     return (
@@ -11,6 +13,10 @@ function Login() {
                 <section className='login'>
                     <form className='login2'>
                         <h1 className='facaLogin'>Faça Login na PESEO</h1>
+
+                        <a href='#'><img src={Google} alt="Continuar com o google" /></a>
+
+                        <img src={Linha} alt='Linha separadora' className='linha'/>
 
                         <div className='mail'>
                             <label className='label'>E-mail</label>

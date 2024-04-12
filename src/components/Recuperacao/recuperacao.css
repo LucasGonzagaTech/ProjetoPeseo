@@ -35,14 +35,16 @@
 }
  
 .email{
-    width: 100px;
+    width: 90px;
     height: 60px;
+    margin-top: 4%;
 }        
  
 .h1{
     font-size: 2rem;
     color: #2E4DE6;
     padding: 10px;
+    font-size: 43px;
 }
  
 .borda2{
@@ -56,4 +58,3 @@
   margin-top: 7%;   
   margin-left: 10%;
 }
- 

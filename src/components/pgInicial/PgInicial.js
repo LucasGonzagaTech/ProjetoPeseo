@@ -11,11 +11,12 @@ import imgG6p1 from '../../img/home5.png'
 import imgG6p2 from '../../img/home4.png'
 import imgG6p3 from '../../img/home3.png'
 import imgG7 from '../../img/home2.png'
-
+import Header from '../Header/Header';
 
 function Home() {
     return(
         <main>
+            <Header/>
             <container>
                 <div className='geral1'> {/* Div com padding adicionado */}
                     <div className='imgG1'>
