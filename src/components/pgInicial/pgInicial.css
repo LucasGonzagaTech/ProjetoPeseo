@@ -127,3 +127,40 @@
     color: #2122ff;
 }
 
+<<<<<<< Updated upstream
+=======
+.geral7{
+    align-items: center;
+    text-align: center;
+}
+
+.btng7Topo{
+    background-color: #2122ff;
+    color: #ffff; 
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #2122ff;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: bold;
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition: 600ms linear;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btng7Topo:hover{
+    background-color: #4242fa;
+    font-size: 26px;
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition: 600ms linear;
+    
+}
+
+>>>>>>> Stashed changes
