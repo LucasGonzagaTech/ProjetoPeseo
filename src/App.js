@@ -10,7 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Páginas
 import Header from './components/Header/Header';
-import Home from './components/Home/Home'
+import Home from './components/pgInicial/PgInicial'
+import Sobre from './components/Sobre/Sobre';
 
 import Login from './components/Login/Login'
 import Cadastro from './components/Cadastro/Cadastro'
@@ -37,6 +38,7 @@ function App() {
       <Route path='/catalogo' element={<Catalogo/>} />
       <Route path='/home-tutor' element={<HomepLoginTutor/>} />
       <Route path='/postar-aula' element={<PostarAula/>} />
+      <Route path='/sobre' element={<Sobre/>} />
       
     </Routes>
     </BrowserRouter>

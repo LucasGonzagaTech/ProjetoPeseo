@@ -1,47 +1,65 @@
-import { Button } from "bootstrap";
+import './sobre.css'
 import React from "react";
 
+import Header from '../Header/Header';
 import img1 from '../../img/sobre1.png'
 import img2 from '../../img/sobre2.png'
 import img3 from '../../img/sobre3.png'
 
 const Sobre = () =>{
     return(
-        <main>
-
-            <div>
-                <h1>Quem somos?</h1>
-
-                <button>Sobre a Peseo</button>
-                <button>Missão</button>
-                <button>Método</button>
-                <button>Equipe</button>
-                <button>Entre em contato</button>
+        <>
+            <Header/>
+            <main className='geralSobre'>
+                <h1 className='titleSobre1'>Quem somos?</h1>
+            <div className='divBtnSobre'>
+                <button className='btnSobre'>Sobre a PESEO</button>
+                <button className='btnSobre'>Missão</button>
+                <button className='btnSobre'>Método</button>
+                <button className='btnSobre'>Equipe</button>
+                <button className='btnSobre'>Entre em contato</button>
             </div>
 
-            <div>
-                <div>
-                    <h1>Uma Plataforma criada a partir da vontade de ajudar</h1>
-                    <p>Criada em 2023 o projeto PESEO é uma plataforma que foi criada da vontade de ajudar os estudantes em seus sonhos de ingressarem no curso que desejarem no futuro. Com aulas objetivas e dinâmicas, buscando sempre trazer diferentes experiências das fornecidas em sala de aula, com a pretendemos atingir as necessidades dos alunos trazendo o reforço necessário.</p>
-                    <p>Desde a ideia inicial do projeto buscamos a diferença dentre aquilo que ja foi criado, queremos que o alunos se sintam a vontade e que aproveitem o conteúdo da plataforma, contamos tambem com a ajuda dos graduandos que auxiliam na matéria que é exibida e fornecida para o auxilio. </p>
-                    <p>Nossa equipe produziu tudo com muito esforço e dedicação desde o primeiro instante desejamos que façam bom proveito de tudo!</p>
+            <div className='sobre1'>
+                <div className='sobretxt1'>
+                    <h1 className='sobretitle1'>Uma Plataforma criada a partir da vontade de ajudar</h1>
+                    <p className='subTitleSobre'>Criada em 2023 o projeto PESEO é uma plataforma que foi elaborada da vontade de ajudar os estudantes em seus sonhos de ingressarem no curso superior que desejarem no futuro. Com aulas objetivas e dinâmicas, buscando sempre trazer diferentes experiências das fornecidas em sala de aula, com a pretendemos atingir as necessidades dos alunos trazendo o reforço necessário.</p>
+                    <p className='subTitleSobre'>Desde a ideia inicial do projeto buscamos a diferença dentre aquilo que ja foi criado, queremos que o alunos se sintam a vontade e que aproveitem o conteúdo da plataforma, contamos tambem com a ajuda dos graduandos que auxiliam na matéria que é exibida e fornecida para o auxilio. </p>
+                    <p className='subTitleSobre'>Nossa equipe produziu tudo com muito esforço e dedicação desde o primeiro instante desejamos que façam bom proveito de tudo!</p>
                 </div>
 
         <img src={img1}/>
             </div>
 
-            <div>
-                <img src={img2}/>
+            <div className='sobre2'>
                 <div>
-                    <h1>Nossa missão</h1>
-
-                    <p>Incentivar o ensino de forma clara e objetiva utilizando ferramentas de reforço, visando a inclusão dos alunos no mundo acadêmico para futuramente cursarem o que desejam.</p>
+                    <img src={img2}/>
                 </div>
 
-                
+                <div className='sobretxt2'>
+                    <h1 className='sobretitle2'>Nossa missão</h1>
+                    <p className='subTitleSobre2'>Incentivar o ensino de forma clara e objetiva utilizando ferramentas de reforço, visando a inclusão dos alunos no mundo acadêmico para futuramente cursarem o que desejam.</p>
+                </div>
             </div>
 
+        <div className='sobre3'>
+            <div className='sobretxt3'>
+                <h1 className='sobretitle3'>Nosso método de ensino</h1>
+                <p className='subTitleSobre3'>No PESEO, oferecemos uma abordagem educacional colaborativa, onde alunos de todas as idades e habilidades podem aprender juntos. Com uma variedade de cursos e recursos interativos, nossa equipe dedicada promove um ambiente seguro e inclusivo, capacitando os alunos a desenvolver habilidades críticas para o futuro. Junte-se a nós e experimente o poder transformador do aprendizado no PESEO.</p>
+            </div>
+            <div>
+                <img src={img3}/>
+            </div>
+        </div>
+
+        <div className='sobreContato'>
+            <h1 className='titleContato'>Como entrar em contato conosco:</h1>
+            <p className='subTitleContato'>Algum problema? Clique aqui para obter ajuda.</p> {/* colocar aqui uma rota para obter ajuda */}
+            <p className='subTitleContato'>Quer fazer uma parceria com a gente? Mande um email! peseopj@outlook.com</p>
+        </div>
+
         </main>
+    </>
     )
 }
 
