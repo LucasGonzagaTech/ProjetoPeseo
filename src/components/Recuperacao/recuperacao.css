@@ -1,24 +1,25 @@
-/*  
-button{
-    width: 480px;
+ 
+.envioCodigo{
+    width: 475.64px;
     height: 40px;
     margin-top: 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #2E4DE6;
     color: #ffffff;
+    margin-top: 7%;
 }
  
-.recuperacao{
+.form{
     align-items: center;
     justify-content: center;
     flex-flow: column;
 }
  
-p{
+.voltar{
     margin: 1px;
 }
  
-section{
+.recuperacao{
     position: relative;
     width: 573.33px;
     border: 2px solid;
@@ -30,21 +31,30 @@ section{
     padding: 2rem 3rem;
     margin-left: 35%;
     border-color: #D8DDE4;
+    padding: 100px;
 }
  
 .email{
-    width: 100px;
+    width: 90px;
     height: 60px;
+    margin-top: 4%;
 }        
  
-h1{
+.h1{
     font-size: 2rem;
-    color: #1C0051;
-    text-align: center;
+    color: #2E4DE6;
     padding: 10px;
+    font-size: 43px;
 }
  
-input{
+.borda2{
     width: 475px;
+    height: 48px;
+    border: solid 2px #D8DDE4;
+    border-radius: 7px;
 }
-  */
+
+.containerRecuperacao{
+  margin-top: 7%;   
+  margin-left: 10%;
+}
