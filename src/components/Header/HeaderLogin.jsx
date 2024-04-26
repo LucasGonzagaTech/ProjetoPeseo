@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../../img/logo.png';
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
-import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faUser, Form} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './header.css';
 
@@ -16,11 +16,11 @@ const HeaderLogin = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Form.Control
+                        {/* <Form.Control
                             type="text"
                             placeholder="Search"
                             className=" mr-sm-2"
-                        />
+                        /> */}
                         <Nav.Link href="#QuemSomos" className="custom_nav_link">Inicio</Nav.Link>
                         <Nav.Link href="#Entrar" className="custom_nav_link">Comunidade</Nav.Link>
                     </Nav>

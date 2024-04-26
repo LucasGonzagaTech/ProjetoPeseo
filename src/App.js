@@ -9,8 +9,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Páginas
-import Header from './components/Header/Header';
-import Home from './components/Home/Home'
+import pgInicial from './components/pgInicial/PgInicial';
+
 
 import Login from './components/Login/Login'
 import Cadastro from './components/Cadastro/Cadastro'
@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<pgInicial/>} />
       <Route path='*' element={<h1>Not Found</h1>} />
 
       <Route path='/login' element={<Login/>} />

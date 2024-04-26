@@ -9,11 +9,20 @@ import Linha from '../../img/Separator.png';
 function Cadastro() {
     return (
         <main>
+<<<<<<< Updated upstream
             <Header />
             <Container className='container1'>
                 <section className='section'>
                     <form className='cadastro'>
                         <h1 className='criaConta'>Crie uma conta</h1>
+=======
+            <section className='section'>
+                <form className='cadastro'>
+                    <h1>Crie uma conta</h1>
+                    <div className='nome'>
+                        <label>Nome</label>
+                        <input className='input' type='text' placeholder='Insira seu nome completo' required ></input>
+>>>>>>> Stashed changes
 
                         <a href='#'>  <img src={Google} alt='Continuar com o google' /> </a>
 
