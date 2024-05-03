@@ -1,4 +1,58 @@
-.Main_Como_Func{
-    display: flex;
-    flex-direction: column;
+.no-padding {
+    padding: 0 !important;
 }
+
+.Saiba_Como{
+    padding: 20px 0px 20px 200px;
+    width: 1200px;
+}
+
+.div_Para_Graduando {
+    display: flex;
+    align-items: center;
+    padding: 48px 200px 48px 200px;
+
+    .column1 {
+        margin-right: 98px;
+    }
+}
+
+.div_Para_Graduando2 {
+    display: flex;
+    align-items: center;
+    background-color: #f6f4fe;
+    padding: 48px 200px 48px 200px;
+
+    .column4 {
+        margin-left: 98px;
+    }
+}
+
+.div_Para_Aluno {
+    display: flex;
+    align-items: center;
+    padding: 48px 200px 48px 200px;
+}
+
+.div_Para_Aluno2 {
+    display: flex;
+    align-items: center;
+    padding: 48px 200px 48px 200px;
+}
+
+.h1ComoFunc {
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.h2ComoFuc {
+    font-size: 56px;
+    line-height: 120%;
+}
+
+.pComoFuc {
+    font-size: 18px;
+    line-height: 150%;
+}
+

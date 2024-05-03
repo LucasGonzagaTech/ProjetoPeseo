@@ -1,28 +1,33 @@
 import React from "react";
-import { Container, Accordion, Button, Row, Col } from "react-bootstrap";
-import TeachersDaybro1 from "../../img/TeachersDaybro1.png"
-import messybunbro1 from "../../img/messybunbro1.png"
-import messybunbro2 from "../../img/messybunbro2.png"
-import messybunbro3 from "../../img/messybunbro3.png"
+import { Container, Accordion, Row, Col } from "react-bootstrap";
+import TeachersDaybro1 from "../../img/COMOFUNCTeachersDaybro1.png"
+import messybunbro1 from "../../img/COMOFUNCmessybunbro1.png"
+import messybunbro2 from "../../img/COMOFUNCmessybunbro2.png"
+import messybunbro3 from "../../img/COMOFUNCmessybunbro3.png"
 import './comoFunc.css'
+// import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const ComoFunc = () => {
     return (
         <main className="Main_Como_Func">
-            <Container>
-
-                <div className="Saiba_Como">
-                    <h1>Saiba mais oque nossa plataforma tem a oferecer e como ela funciona</h1>
-                </div>
+            <Header />
+            <Container fluid className="divConteiner_ComoFunc">
                 <Row>
+                    <Col sm={12} className="no-padding">
 
-                    <Col>
+                        <div className="Saiba_Como">
+                            <h1 className="h1ComoFunc">Saiba mais oque nossa plataforma tem a oferecer e como ela funciona</h1>
+                        </div>
+
+                        {/* Parte do Tutor */}
+
                         <div className="div_Para_Graduando">
                             <div className="column1">
                                 <span>Para graduando</span>
-
-                                <h2>Qual Matéria eu posso dar?</h2>
-                                <p>
+                                <h2 className="h2ComoFuc">Qual Matéria eu posso dar?</h2>
+                                <p className="pComoFuc">
                                     Nossa plataforma foca em disciplinas do ensino fundamental á médio, nosso intuído
                                     é ajudar os alunos que tenha dificuldade e precisa de um reforço educacional.
                                 </p>
@@ -84,25 +89,17 @@ const ComoFunc = () => {
 
                                 </Accordion>
                             </div>
-
                             <div className="column2">
-                                <img src={TeachersDaybro1} alt="#" fluid />
+                                <img className="Img_ComoFunc" src={TeachersDaybro1} alt="#" fluid />
                             </div>
                         </div>
-                    </Col>
-                    
-                    <Col>
+
                         <div className="div_Para_Graduando2">
-
-                            <div className="column3">
-                                <img src={messybunbro1} alt="#" fluid />
-                            </div>
-
+                            <img className="Img_ComoFunc" src={messybunbro1} alt="#" fluid />
                             <div className="column4">
                                 <span>Para graduando</span>
-
-                                <h2>Como Funciona a eliminação de horas complementares </h2>
-                                <p>
+                                <h2 className="h2ComoFuc">Como Funciona a eliminação de horas complementares </h2>
+                                <p className="pComoFuc">
                                     Nossa plataforma foca em disciplinas do ensino fundamental á médio, nosso intuído
                                     é ajudar os alunos que tenha dificuldade e precisa de um reforço educacional.
                                 </p>
@@ -147,55 +144,44 @@ const ComoFunc = () => {
                                             paixão pelo assunto.
                                         </Accordion.Body>
                                     </Accordion.Item>
-
-
                                 </Accordion>
+                            </div>
+                        </div>
+
+                        {/* Parte do Aluno */}
+
+                        <div className="div_Para_Aluno">
+
+                            <div className="column5">
+                                <span>Para Alumo</span>
+                                <h2 className="h2ComoFuc">Veja aulas gravadas por universitatios e aprenda junto com eles</h2>
+                                <p className="pComoFuc">Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
+                                    uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
+                                    Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.
+                                </p>
+                            </div>
+                            <div className="column6">
+                                <img className="Img_ComoFunc" src={messybunbro2} alt="Logo" fluid />
+                            </div>
+                        </div>
+
+                        <div className="div_Para_Aluno2">
+                            <div className="column7">
+                                <img className="Img_ComoFunc" src={messybunbro3} alt="" fluid />
+                            </div>
+                            <div className="column8">
+                                <span>Para Alumo</span>
+                                <h2 className="h2ComoFuc">Responda questionarios para melhorar seu aprendizado</h2>
+                                <p className="pComoFuc">Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
+                                    uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
+                                    Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.
+                                </p>
                             </div>
                         </div>
                     </Col>
                 </Row>
-
-                <div className="cadastra-seLog">
-                    <p>Entre na PESEO para ajuda personalizada em seus estudos ou
-                        para aprender algo novo.</p>
-
-                    <Button>Cadastra-se</Button>
-                </div>
-
-                <div className="div_Para_Aluno">
-                    <div className="column6">
-                        <img src={messybunbro2} alt="Logo" fluid />
-                    </div>
-
-                    <div className="column5">
-                        <span>Para Alumo</span>
-                        <h2>Veja aulas gravadas por universitatios e aprenda junto com eles</h2>
-                        <p>Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
-                            uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
-                            Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div className="div_Para_Aluno">
-
-                    <div className="column7">
-                        <img src={messybunbro3} alt="" fluid />
-                    </div>
-
-                    <div className="column8">
-                        <h2>Responda questionarios para melhorar seu aprendizado</h2>
-                        <p>Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
-                            uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
-                            Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.
-                        </p>
-                    </div>
-
-                    <span>Para Alumo</span>
-
-                </div>
             </Container>
+                <Footer />
         </main >
     )
 }
