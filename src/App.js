@@ -20,30 +20,32 @@ import Recuperacao from './components/Recuperacao/Recuperacao'
 import Catalogo from './components/Catalogo/Catalogo';
 import HomepLoginTutor from './components/HomepLoginTutor/HomepLoginTutor';
 import PostarAula from './components/PostarAula/PostarAula';
+import ComoFunc from './components/comoFunc/comoFunc';
 
 
 function App() {
   return (
-<>
-    <BrowserRouter>
-    <Routes>
-      
-      <Route path='/' element={<Home/>} />
-      <Route path='*' element={<h1>Not Found</h1>} />
+    <>
+      <BrowserRouter>
+        <Routes>
 
-      <Route path='/login' element={<Login/>} />
-      <Route path='/cadastro' element={<Cadastro/>} />
-      <Route path='/recuperacao' element={<Recuperacao/>} />
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<h1>Not Found</h1>} />
 
-      <Route path='/catalogo' element={<Catalogo/>} />
-      <Route path='/home-tutor' element={<HomepLoginTutor/>} />
-      <Route path='/postar-aula' element={<PostarAula/>} />
-      <Route path='/sobre' element={<Sobre/>} />
-      
-    </Routes>
-    </BrowserRouter>
-</>
-    
+          <Route path='/login' element={<Login />} />
+          <Route path='/cadastro' element={<Cadastro />} />
+          <Route path='/recuperacao' element={<Recuperacao />} />
+
+          <Route path='/catalogo' element={<Catalogo />} />
+          <Route path='/home-tutor' element={<HomepLoginTutor />} />
+          <Route path='/postar-aula' element={<PostarAula />} />
+          <Route path='/sobre' element={<Sobre />} />
+          <Route path='/como-funciona' element={<ComoFunc/>} />
+
+        </Routes>
+      </BrowserRouter>
+    </>
+
   );
 }
 

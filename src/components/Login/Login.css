@@ -1,12 +1,61 @@
-/* button{
+.contiMail {
     width: 480px;
     height: 40px;
     margin-top: 16px;
     border-radius: 5px;
     background-color: #2E4DE6;
     color: #ffffff;
-} */
+}
 
-p{
-    margin: 1px;
+.paragrafo {
+    margin: 2%;
+}
+
+.login2 {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.login {
+    position: relative;
+    width: 573px;
+    border: 2px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-left: 25%;
+    border-color: #D8DDE4;
+    padding: 100px;
+}
+
+.mail {
+    width: 200px;
+    height: 60px;
+    margin-top: 3%;   
+}
+
+.Senha {
+    width: 200px;
+    height: 60px;
+    margin-top: 4%;
+
+}
+
+.borda {
+    width: 475px;
+    height: 35px;
+    border: solid 2px #D8DDE4;
+    border-radius: 7px;
+}
+
+.containerLogin {
+    margin-top: 5%;
+}
+
+.facaLogin {
+    color: #2222FF;
 }

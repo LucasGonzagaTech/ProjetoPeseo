@@ -287,6 +287,7 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
 .geral7{
     align-items: center;
     text-align: center;
+    margin-bottom: 7%;
 }
 
 .btng7Topo{
@@ -315,5 +316,4 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transition: 600ms linear;
-    
 }

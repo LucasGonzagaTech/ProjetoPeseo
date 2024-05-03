@@ -12,6 +12,7 @@ import imgG6p1 from '../../img/home5.png'
 import imgG6p2 from '../../img/home4.png'
 import imgG6p3 from '../../img/home3.png'
 import imgG7 from '../../img/home2.png'
+import Footer from '../Footer/Footer';
 
 
 
@@ -42,7 +43,7 @@ function Home() {
                     </div>
                     <div className='txtG2'>
                         <h1>Aprenda com alunos universitários!</h1>
-                        <p>Junte-se a uma comunidade de alunos e universitários, onde a aprendizagem é colaborativa: conecte-se, compartilhe e cresça junto com os outros!</p>
+                        <p>Junte-se a uma comunidade de alunos e universitários, onde a aprendizagem é colaborativa: conecte-se, compartilhe e cresça com outros alunos!</p>
                     </div>
                 </div>
 
@@ -50,7 +51,7 @@ function Home() {
                     <div className='margin'>{/* Div com padding adicionado */}
                         <div className='txtG3'>
                             <h1>Para você que está se graduando!</h1>
-                            <p>A PESEO oferece aos estudantes a capacidade de eliminar horas complementares através de uma plataforma intuitiva e eficiente, simplificando o processo de validação de atividades extracurriculares.</p>
+                            <p>A PESEO oferece aos estudantes a capacidade de eliminar horas complementares por meio de uma plataforma intuitiva e eficiente, simplificando o processo de validação de atividades extracurriculares.</p>
                         </div>
                         <div className='imgG3'>
                             <img src={imgG3} alt="Desenho de uma mulher vestida com roupa de gradoando e um canudo na mão"/>
@@ -89,7 +90,7 @@ function Home() {
 
                 <div className='geral6'>
 
-                    <h1>Com a PESEO se transforma a aprendizagem</h1>
+                    <h1>Com a PESEO se transforma a aprendizagem!</h1>
 
                     <div className='margin'>
                         <div className='aling'>
@@ -108,7 +109,7 @@ function Home() {
                             <div className='gp3'>
                                 <img className='imgG6p1' src={imgG6p3}  alt='quatro pessoas para representar amizades/comunidade'/>
                                 <h1>Aprenda com uma comunidade</h1>
-                                <p>O PESEO promove uma cultura de colaboração, onde todos são incentivados a contribuir com seu conhecimento único, e valoriza a participação ativa dos usuários, enriquecendo a experiência educacional de todos.</p>
+                                <p>A PESEO promove uma cultura de colaboração, onde todos são incentivados a contribuir com seu conhecimento único, e valoriza a participação ativa dos usuários, enriquecendo a experiência educacional de todos.</p>
                             </div>
                         </div>
                     </div>
@@ -123,6 +124,7 @@ function Home() {
                 </div>
             </container>
         </main>
+        <Footer/>
         </>
     )
 }
