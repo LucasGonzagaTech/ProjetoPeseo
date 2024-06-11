@@ -47,7 +47,7 @@ function Cadastro() {
                         <button className='contEmail'>Continuar com e-mail</button>
 
                         <div className='Login'>
-                            <p>Ja tem cadastro? <a href='#'>Login</a></p>
+                            <p>Ja tem cadastro? <a href='login'>Login</a></p>
                         </div>
                     </form>
                 </section>

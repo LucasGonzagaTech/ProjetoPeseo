@@ -2,14 +2,17 @@
 
 /* colocar a fonte paão da pagina que ainda falta */
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* parte inicial imagem mulher grande */
-.geral1{
+.geral1 {
     margin-top: 100px;
     display: flex;
     padding-left: 200px;
@@ -17,16 +20,31 @@
     padding-bottom: 200px;
 }
 
-.g1sub h1{
+.g1sub {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.h1subg1 {
     font-size: 55px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.btng1Topo{
+.btng1grup {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 10%; */
+}
+
+.btng1Topo {
     background-color: #2122ff;
-    color: #ffff; 
+    color: #ffff;
     width: 600px;
     height: 50px;
     border-radius: 10px;
@@ -44,7 +62,8 @@
     font-style: normal;
 }
 
-.btng1Topo:hover{
+.btng1Topo:hover {
+    color: #ffff;
     background-color: #4242fa;
     font-size: 26px;
     -xpedu-transform: scale(1.1);
@@ -52,9 +71,9 @@
     transition: 600ms linear;
 }
 
-.btng1baixo{
+.btng1baixo {
     background-color: #ffff;
-    color: #2122ff; 
+    color: #2122ff;
     width: 600px;
     height: 50px;
     border: solid 1px #2122ff;
@@ -70,15 +89,16 @@
     font-style: normal;
 }
 
-.btng1baixo:hover{
-    background-color: #e4f2f8;
+.btng1baixo:hover {
+    background-color: #eef8fc;
+
     font-size: 26px;
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transition: 600ms linear;
 }
 
-.g1sub{
+.g1sub {
     display: inline;
     text-align: center;
     justify-content: center;
@@ -88,14 +108,14 @@
 
 
 /* Geral 2 Aprenda com alunos universitarios */
-.geral2{
+.geral2 {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 200px;
     display: flex;
 }
 
-.geral2 h1{
+.geral2 h1 {
     color: #c6ff00;
     font-size: 60px;
     margin-bottom: 5%;
@@ -104,7 +124,7 @@
     font-style: normal;
 }
 
-.geral2 p{
+.geral2 p {
     font-size: 25px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -112,7 +132,7 @@
     font-style: normal;
 }
 
-.txtG2{
+.txtG2 {
     margin-top: 10%;
     margin-left: 5%;
 }
@@ -120,18 +140,18 @@
 
 /* Geral 3 Para você que esta se graduando! */
 
-.geral3{
+.geral3 {
     background-color: #efe8fd;
 }
 
-.margin{
+.margin {
     padding-top: 80px;
     padding-left: 200px;
     padding-right: 200px;
     display: flex;
 }
 
-.geral3 h1{
+.geral3 h1 {
     color: #7e57c2;
     font-size: 60px;
     margin-bottom: 5%;
@@ -140,7 +160,7 @@
     font-style: normal;
 }
 
-.geral3 p{
+.geral3 p {
     font-size: 25px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -148,12 +168,12 @@
     font-style: normal;
 }
 
-.txtG3{
+.txtG3 {
     margin-top: 10%;
     margin-right: 5%;
 }
 
-.imgG3{
+.imgG3 {
     padding-bottom: 50px;
 }
 
@@ -162,7 +182,7 @@
 /* Geral 4 Ensino dinâmico e acessível. */
 
 
-.geral4{
+.geral4 {
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
@@ -170,7 +190,7 @@
     display: flex;
 }
 
-.geral4 h1{
+.geral4 h1 {
     color: #f49e0c;
     font-size: 60px;
     margin-bottom: 5%;
@@ -179,7 +199,7 @@
     font-style: normal;
 }
 
-.geral4 p{
+.geral4 p {
     font-size: 25px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -187,7 +207,7 @@
     font-style: normal;
 }
 
-.txtG4{
+.txtG4 {
     margin-top: 10%;
     margin-left: 5%;
 }
@@ -195,11 +215,11 @@
 
 /* Geral 5 Explore e aprenda no seu próprio ritmo, quando e onde quiser. */
 
-.geral5{
+.geral5 {
     background-color: #ebfff2;
 }
 
-.geral5 h1{
+.geral5 h1 {
     color: #92e3a9;
     font-size: 60px;
     text-align: center;
@@ -208,31 +228,33 @@
     font-style: normal;
 }
 
-.imgG5, .store, .titleG5{
+.imgG5,
+.store,
+.titleG5 {
     display: flex;
     justify-content: center;
 }
 
-.store{
+.store {
     padding-bottom: 5%;
     margin-top: 10px;
 }
 
-.store img{
+.store img {
     margin: 20px;
-    -webkit-box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
--moz-box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
-box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 5px 8px 17px -6px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 5px 8px 17px -6px rgba(0, 0, 0, 0.43);
+    box-shadow: 5px 8px 17px -6px rgba(0, 0, 0, 0.43);
 }
 
 /* Geral 6 Explore e aprenda no seu próprio ritmo, quando e onde quiser. */
 
-.geral6{
+.geral6 {
     margin-top: 7%;
     margin-bottom: 7%;
 }
 
-.geral6 h1{
+.geral6 h1 {
     color: #2122ff;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -244,26 +266,32 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
     width: 300px;
 }
 
-.aling{
+.aling {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.gp1, .gp2, .gp3{
+.gp1,
+.gp2,
+.gp3 {
     padding: 10px;
 }
 
-.imgG6p1{
+.imgG6p1 {
     margin-bottom: 10px;
 }
 
-.gp1 h1, .gp2 h1, .gp3 h1{
+.gp1 h1,
+.gp2 h1,
+.gp3 h1 {
     font-size: 40px;
 }
 
-.gp1 p, .gp2 p, .gp3 p{
+.gp1 p,
+.gp2 p,
+.gp3 p {
     padding-right: 75px;
     padding-left: 75px;
     padding-top: 15px;
@@ -276,7 +304,7 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
 
 /* Geral 7 Melhore sua aprendizagem com a PESEO */
 
-.geral7 h1{
+.geral7 h1 {
     color: #2122ff;
 
     font-family: "Roboto", sans-serif;
@@ -284,15 +312,15 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
     font-style: normal;
 }
 
-.geral7{
+.geral7 {
     align-items: center;
     text-align: center;
     margin-bottom: 7%;
 }
 
-.btng7Topo{
+.btng7Topo {
     background-color: #2122ff;
-    color: #ffff; 
+    color: #ffff;
     width: 600px;
     height: 50px;
     border-radius: 10px;
@@ -310,10 +338,150 @@ box-shadow: 5px 8px 17px -6px rgba(0,0,0,0.43);
     font-style: normal;
 }
 
-.btng7Topo:hover{
+.btng7Topo:hover {
     background-color: #4242fa;
     font-size: 26px;
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transition: 600ms linear;
+}
+
+/* responsividade para tela 1600px ou menos */
+
+@media (max-width: 1600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .geral1 {
+        margin-top: 50px;
+        display: flex;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .h1subg1 {
+        font-size: 55px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .imgG1 img {
+        width: 520px;
+        height: 478px;
+    }
+
+    .g1sub {
+        margin-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .btng1Topo {
+        background-color: #2122ff;
+        color: #ffff;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .btng1baixo {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .btng1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Geral 2 Aprenda com alunos universitarios */
+
+    .geral2 {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+
+    .geral2 h1 {
+        font-size: 50px;
+        margin-bottom: 5%;
+    }
+
+    .geral2 p {
+        font-size: 24px;
+    }
+
+    /* Geral 3 Para você que esta se graduando! */
+
+    .margin {
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+
+    .imgG2 img {
+        width: 600px;
+        height: 578px;
+    }
+
+    .txtG3 {
+        margin-top: 10%;
+        margin-right: 5%;
+    }
+
+    /* Geral 4 Ensino dinâmico e acessível. */
+
+    .geral4 {
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .geral4 h1 {
+        font-size: 50px;
+        margin-bottom: 5%;
+    }
+}
+
+/* responsividade para tela 1400px ou menos */
+
+@media (max-width: 1400px) {
+
+    .imgG1 img {
+        width: 420px;
+        height: 378px;
+    }
+
+    .imgG2 img{
+        width: 550px;
+        height: 478px;
+    }
+
+    .imgG3 img{
+        width: 611px;
+        height: 572px;
+    }
+
+    .imgG4 img{
+        width: 611px;
+        height: 536px;
+    }
+
+    .imgG5 img{
+        width: 612px;
+        height: 472px;
+    }
+
 }
