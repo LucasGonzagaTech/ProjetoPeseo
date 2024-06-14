@@ -247,7 +247,7 @@
     box-shadow: 5px 8px 17px -6px rgba(0, 0, 0, 0.43);
 }
 
-/* Geral 6 3 textos */
+/* Geral 6 Com a PESEO a aprendizagem se transforma! */
 
 .geral6 {
     margin-top: 7%;
@@ -683,6 +683,15 @@
         font-size: 20px;
     }
 
+    .gp1 p,
+    .gp2 p,
+    .gp3 p {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
 
     .imgG4 img {
         width: 411px;
@@ -700,9 +709,117 @@
         height: 200px;
     }
 
-    .geral6 h1 {
-        color: #2122ff;
-        font-size: 25px;
+    /* .geral6 h1 {
+        font-size: 50px;
+    } */
+
+    .txtG4 p {
+        font-size: 22px;
+    }
+
+    .titleG6 h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .margin {
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+
+    /* Geral 1 */
+
+    .geral1 {
+        margin-top: 50px;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .geral2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+
+
+    .imgG1 img {
+        width: 320px;
+        height: 278px;
+    }
+
+    .g1sub {
+        margin-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .h1subg1 {
+        font-size: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .btng1Topo {
+        background-color: #2122ff;
+        color: #ffff;
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: #2122ff;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+
+    .btng1Topo:hover {
+        color: #ffff;
+        background-color: #4242fa;
+        font-size: 23px;
+    }
+
+    .btng1baixo:hover {
+        background-color: #eef8fc;
+        font-size: 23px;
+        -xpedu-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transition: 600ms linear;
+    }
+
+    /* geral 2 */
+
+    .imgG2 img {
+        width: 350px;
+        height: 278px;
+        margin-top: 110px;
+    }
+
+    .imgG3 img {
+        width: 311px;
+        height: 272px;
+        margin-top: 50px;
+    }
+
+    .txtG3 {
+        margin-top: 10%;
+        margin-right: 5%;
+    }
+
+    .txtG3 h1 {
+        font-size: 50px;
+    }
+
+    .txtG3 p {
+        font-size: 20px;
     }
 
     .gp1 p,
@@ -712,5 +829,137 @@
         padding-left: 15px;
         padding-top: 15px;
         font-size: 22px;
+    }
+
+
+    .imgG4 img {
+        width: 311px;
+        height: 236px;
+        margin-top: 220px;
+    }
+
+    .imgG5 img {
+        width: 612px;
+        height: 472px;
+    }
+
+    .imgG6p1 {
+        width: 250px;
+        height: 200px;
+    }
+
+    /* .geral6 h1 {
+        font-size: 50px;
+    } */
+
+    .txtG4 p {
+        font-size: 22px;
+    }
+
+    .titleG6 h1 {
+        font-size: 35px;
+    }
+
+    .aling {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .geral4 {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+}
+
+@media (max-width: 753px) {
+    .geral2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+
+    .txtG2 {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+
+    .imgG2 img {
+        width: 350px;
+        height: 278px;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 733px) {
+
+
+    .geral1 {
+        margin-top: 50px;
+        display: ruby-text;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .h1subg1 {
+        font-size: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .geral2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        display: ruby-text;
+    }
+
+    .txtG2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .txtG2 p {
+        margin: 20px;
+    }
+
+    .margin {
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        display: ruby-text;
+    }
+
+    .txtG3 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .txtG3 p {
+        margin: 20px;
+    }
+
+    .geral4 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        display: ruby-text;
+    }
+
+    .txtG4 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .txtG4 p {
+        margin: 20px;
     }
 }

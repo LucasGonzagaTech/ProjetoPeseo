@@ -91,8 +91,10 @@ function Home() {
 
 
                     <div className='geral6'>
-
-                        <h1>Com a PESEO a aprendizagem se transforma!</h1>
+                        
+                    <div className='titleG6'>
+                            <h1>Com a PESEO a aprendizagem se transforma!</h1>
+                        </div>
 
                         <div className='margin'>
                             <div className='aling'>
