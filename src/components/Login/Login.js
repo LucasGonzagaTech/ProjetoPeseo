@@ -8,6 +8,7 @@ import Linha from '../../img/Separator.png';
 function Login() {
     return (
         <main>
+
             <Header />
             <Container className='containerLogin'>
                 <section className='login'>
@@ -16,7 +17,7 @@ function Login() {
 
                         <a href='#'><img src={Google} alt="Continuar com o google" /></a>
 
-                        <img src={Linha} alt='Linha separadora' className='linha'/>
+                        <img src={Linha} alt='Linha separadora' className='linha' />
 
                         <div className='mail'>
                             <label className='label'>E-mail</label>
@@ -32,7 +33,7 @@ function Login() {
 
                         <div>
                             <p className='paragrafo'>Esqueceu sua senha? <a href='#'>Altere agora</a></p>
-                            <p className='paragrafo'>Não tem cadastro?<a href='#'>Cadastre-se</a></p>
+                            <p className='paragrafo'>Não tem cadastro?<a href='cadastro'>Cadastre-se</a></p>
                         </div>
                     </form>
                 </section>

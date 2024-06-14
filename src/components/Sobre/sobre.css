@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.geralSobre{
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.titleSobre1{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.divBtnSobre{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.btnSobre{
+    background-color: #2122ff;
+    color: #ffff; 
+    width: 220px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transition: 600ms linear;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btnSobre:hover{
+    background-color: #4242fa;
+    font-size: 21px;
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transition: 600ms linear;
+}
+
+.sobre1{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.sobretxt1{
+    margin-right: 20%;
+}
+
+.sobretitle1{
+    color: #3de16c;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subTitleSobre{
+    margin-top: 20px;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #6c757d;
+}
+
+.sobre2{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.sobretxt2{
+
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.sobretitle2{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #407bff;
+}
+
+.subTitleSobre2{
+    margin-top: 20px;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.sobre3{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.sobretxt3{
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.sobretitle3{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #3de16c;
+}
+
+.subTitleSobre3{
+    margin-top: 20px;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.sobreContato{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.titleContato{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2122ff;
+}
+
+.subTitleContato{
+    font-size: 20px;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+

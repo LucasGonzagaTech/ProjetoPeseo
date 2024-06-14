@@ -12,17 +12,14 @@ function Recuperacao() {
             <Container className='containerRecuperacao'>
             <section className='recuperacao'>
                 <form className='form'>
-                     <h1 className='h1'>Recuperação da Conta</h1>
-            
-                     <img src={Linha}/>
-  
-                     <div className='email'>
+                    <h1 className='h1'>Recuperação da Conta</h1>
+                    <img src={Linha}/>
+                    <div className='email'>
                         <label>E-mail</label>
                         <input className='borda2' type='email' placeholder='Insira seu e-mail' required></input>
-                     </div>
- 
-               <button className='envioCodigo'>Enviar código para e-mail</button>
-                   
+                    </div>
+
+            <button className='envioCodigo'>Enviar código para e-mail</button>
 
                 <div className='voltar'>
                 <img src={Seta} alt='Seta' className='imagem'/>
@@ -34,5 +31,5 @@ function Recuperacao() {
         </main> 
     )
 }
- 
+
 export default Recuperacao;

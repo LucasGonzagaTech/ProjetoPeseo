@@ -1,0 +1,95 @@
+.card1{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+}
+.carousel-control-next-icon {
+    background-image: url('../../img/next.png');
+}
+.carousel-control-prev-icon{
+    background-image: url('../../img/prev.png');
+}
+
+.h1Catalogo{
+    margin-top: 20px;
+    padding-left: 100px; /* Margem à esquerda */
+    padding-right: 100px; /* Margem à direita */
+}
+@media (max-width: 768px) {
+    h1{
+      padding-left: 20px; /* Margem à esquerda reduzida para telas menores */
+      padding-right: 20px; /* Margem à direita reduzida para telas menores */
+    }
+  }
+  .categorias{
+    margin-top: 80px;
+    padding-left: 100px; /* Margem à esquerda */
+    padding-right: 100px; /* Margem à direita */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  @media (max-width: 942px) {
+    .categorias{
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .categorias{
+      padding-left: 20px; /* Margem à esquerda reduzida para telas menores */
+      padding-right: 20px; /* Margem à direita reduzida para telas menores */
+      width: 100%;
+    }
+  }
+.principaisCategorias {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px; /* Margem à esquerda */
+    padding-right: 100px; /* Margem à direita */
+  }
+  
+  .session1, .session2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço entre as sessões */
+  }
+  
+  /* Estilo para os botões */
+  .session1 button, .session2 button {
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre os botões e os títulos */
+  }
+  
+  /* Para tornar o layout responsivo */
+  @media (max-width: 768px) {
+    .principaisCategorias {
+      padding-left: 20px; /* Margem à esquerda reduzida para telas menores */
+      padding-right: 20px; /* Margem à direita reduzida para telas menores */
+    }
+  }
+
+  .objetivo {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+  }
+  
+  .objetivo img {
+    margin-right: 20px; /* Espaço entre a imagem e os outros elementos */
+  }
+  
+  /* Para tornar o layout responsivo */
+  @media (max-width: 768px) {
+    .objetivo {
+      flex-direction: column; /* Empilhar os elementos verticalmente em telas menores */
+      align-items: flex-start; /* Alinhar os elementos à esquerda em telas menores */
+    }
+  
+    .objetivo img {
+      margin-bottom: 20px; /* Espaço entre a imagem e os outros elementos em telas menores */
+    }
+  }
+  
+  

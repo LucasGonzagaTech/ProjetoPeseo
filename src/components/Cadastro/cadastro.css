@@ -23,14 +23,12 @@
     width: 200px;
     height: 60px;
     margin-top: 2%;
-    
 }
 
 .email{
     width: 200px;
     height: 60px;
     margin-top: 1%;
-
 }
 
 .numTel{
@@ -48,34 +46,28 @@
 .confirmaSenha{
     margin-top: 3%;
 }
+
 .criaConta{
     font-size: 2.5rem;
-    color: #2222FF;              
+    color: #2222FF; 
     padding: 10px;
     margin-top: 1%;
 }
 
-<<<<<<< Updated upstream
-
-
-
-=======
->>>>>>> Stashed changes
 .input{
     width: 475px;
     height: 35px;
     border: solid 2px #D8DDE4;
     border-radius: 5px;
-    
 }
 
 .contEmail{
-   width: 480px;
-   height: 40px;
-   margin-top: 16px;
-   border-radius: 5px;
-   background-color: #2E4DE6;
-   color: #ffffff;
+    width: 480px;
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 5px;
+    background-color: #2E4DE6;
+    color: #ffffff;
 }
 
 .container1{
@@ -95,3 +87,5 @@
 .linha{
     margin-top: 2%;
 }
+
+

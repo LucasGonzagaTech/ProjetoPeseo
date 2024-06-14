@@ -25,13 +25,6 @@
     background-color: #2222FF;
 }
 
-.UserPhoto{
-    font-size: 2.5em;
-}
-
-.UserEdit{
-    flex-direction: column;
-}
 
 @media (max-width: 1000px) {
     .hide-on-mobile {
