@@ -1,4 +1,5 @@
 const express = require('express');
+const bcrypt = require('bcrypt');
 const router = express.Router();
 const dbConecta = require ('../models/dbConexao');
 
@@ -12,11 +13,12 @@ router.get('/', (req, res) =>{
 });
 
 //POST
-router.post('/', (req, res) =>{
-    const {idUsuario, nome, email, tel,} = req.body;
-    const query = 'INSERT INTO tbusuarios (idUsuario, nome, email, tel) VALUES (?,?,?,?)';
+router.post('/', async (req, res) =>{
+    const {idUsuario, nome, email, tel, senha} = req.body;
+    const hash = await bcrypt.hash(senha, 10);
+    const query = 'INSERT INTO tbusuarios (idUsuario, nome, email, tel, senha) VALUES (?,?,?,?,?)';
 
-    dbConecta.query( query, [idUsuario, nome, email, tel], (err, result) =>{
+    dbConecta.query( query, [idUsuario, nome, email, tel, hash], (err, result) =>{
         if(err) {
             res.status(500).json({message: 'Erro ao adicionar usuário.'});
 
@@ -68,6 +70,29 @@ router.put('/:id', (req, res) => {
             })
         }
     })
+});
+
+
+// Autenticação de login
+router.post('/login', (req, res) => {
+    const { email, senha } = req.body;
+    const query = 'SELECT * FROM tbusuarios WHERE email = ?';
+
+    dbConecta.query(query, [email], async (err, result) => {
+        if (err) {
+            res.status(500).json({ message: 'Erro ao autenticar usuário.' });
+        } else if (result.length === 0) {
+            res.status(401).json({ message: 'Usuário não encontrado.' });
+        } else {
+            const user = result[0];
+            const match = await bcrypt.compare(senha, user.senha);
+            if (match) {
+                res.status(200).json({ message: 'Autenticado com sucesso!', userId: user.idUsuario });
+            } else {
+                res.status(401).json({ message: 'Senha incorreta.' });
+            }
+        }
+    });
 });
 
 module.exports = router;

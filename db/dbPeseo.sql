@@ -11,6 +11,7 @@ create table tbUsuarios(
     nome varchar(100) not null,
     email varchar(100) not null,
     tel varchar(11) not null,
+    senha VARCHAR(255) NOT NULL, 
     primary key(idUsuario)
 );
 

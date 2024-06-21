@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import react, { useState} from 'react';
 import Header from "../Header/Header";
 import CardItem from './CardItem';
 import Carousel from 'react-bootstrap/Carousel';
