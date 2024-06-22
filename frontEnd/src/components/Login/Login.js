@@ -6,48 +6,37 @@ import { Container } from 'react-bootstrap';
 import Google from '../../img/Googlelogin.png';
 import Linha from '../../img/Separator.png';
 
+import { Navigate } from 'react-router-dom';
+
 function Login() {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [redirect, setRedirect] = useState(false); // Estado para controlar o redirecionamento
 
     const handleLogin = async (event) => {
         event.preventDefault();
 
-        const response = await fetch('http://localhost:3000/api/login', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ email, senha })
-        });
+        try {
+            const response = await axios.post('http://localhost:3000/usuarios/login', {
+                email,
+                senha
+            });
 
-        const data = await response.json();
-        if (response.ok) {
-            // Sucesso, redirecionar ou armazenar dados no localStorage
-            console.log(data.message);
-        } else {
-            // Exibir erro
-            console.log(data.message);
+            if (response.status === 200) {
+                setRedirect(true); // Redirecionar em caso de sucesso
+            } else {
+                console.log('Erro no login:', response.data.message);
+            }
+        } catch (error) {
+            console.error('Erro no login:', error);
+            alert('Erro ao fazer login');
         }
     };
 
-    //     try {
-    //         const response = await axios.post('http://localhost:3000/usuarios', {
-    //             email: email,
-    //             senha: senha
-    //         });
+    if (redirect) {
+        return <Navigate to="/catalogo" />; // Redireciona para a página de dashboard após o login
+    }
 
-    //         console.log('Resposta do login:', response.data);
-
-    //         // Aqui você pode adicionar lógica para redirecionar o usuário para a página de dashboard, por exemplo
-    //         // window.location.href = '/dashboard';
-    //         // ou usar um componente de roteamento como o react-router-dom
-
-    //     } catch (error) {
-    //         console.error('Erro no login:', error);
-    //         alert('Erro ao fazer login');
-    //     }
-    // };
     return (
         <main>
 

@@ -1,6 +1,4 @@
--- source C:\scriptTIPI01\dbPeseo.sql
-
-drop database dbPeseo;
+--- drop database dbPeseo;
 
 create database dbPeseo;
 
