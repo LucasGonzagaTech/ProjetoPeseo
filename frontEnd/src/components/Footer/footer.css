@@ -45,3 +45,14 @@
     width: 450px;
     flex-wrap: wrap;
 }
+
+@media (max-width: 500px){
+    .column_Copyright{
+
+        display: inline;
+    }
+
+    .column_Duvida Button{
+        font-size: 11px;
+    }
+}

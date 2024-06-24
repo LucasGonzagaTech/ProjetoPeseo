@@ -91,8 +91,8 @@ function Home() {
 
 
                     <div className='geral6'>
-                        
-                    <div className='titleG6'>
+
+                        <div className='titleG6'>
                             <h1>Com a PESEO a aprendizagem se transforma!</h1>
                         </div>
 
@@ -121,7 +121,9 @@ function Home() {
 
                     <div className='geral7'>
                         <h1>Melhore sua aprendizagem com a PESEO</h1>
-                        <img src={imgG7} alt='Uma menina em cima de livros lendo' />
+                        <div className='imgG7'>
+                            <img src={imgG7} alt='Uma menina em cima de livros lendo' />
+                        </div>
                         <div className='btng7'>
                             <button className='btng7Topo'>Comece a aprender agora!</button>{/* fazer esse botão ir para a pg de cadastro */}
                         </div>
