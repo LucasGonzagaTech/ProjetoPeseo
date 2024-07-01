@@ -36,7 +36,7 @@ const Sobre = () => {
                 </div>
 
                 <div className='sobre2'>
-                    <div>
+                    <div className='img2'>
                         <img src={img2} />
                     </div>
 

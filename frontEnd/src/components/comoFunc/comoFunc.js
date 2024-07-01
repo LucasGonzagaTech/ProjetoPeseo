@@ -28,14 +28,14 @@ const ComoFunc = () => {
                                 <span>Para graduando</span>
                                 <h2 className="h2ComoFuc">Qual Matéria eu posso dar?</h2>
                                 <p className="pComoFuc">
-                                Nossa plataforma é foca em disciplinas do ensino fundamental ao médio. Nosso intuito é auxiliar os alunos que tenham dificuldades e precisem de um reforço educacional.
+                                    Nossa plataforma é foca em disciplinas do ensino fundamental ao médio. Nosso intuito é auxiliar os alunos que tenham dificuldades e precisem de um reforço educacional.
                                 </p>
                                 <Accordion defaultActiveKey="0">
 
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>Trilha - Matemática</Accordion.Header>
                                         <Accordion.Body>
-                                        Explorando números e formas do ensino médio, alinhada com a BNCC.  Avanço para o ensino médio com álgebra, geometria avançada e probabilidade. Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e paixão pelo assunto.
+                                            Explorando números e formas do ensino médio, alinhada com a BNCC.  Avanço para o ensino médio com álgebra, geometria avançada e probabilidade. Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e paixão pelo assunto.
                                         </Accordion.Body>
                                     </Accordion.Item>
 
@@ -84,12 +84,14 @@ const ComoFunc = () => {
                                 </Accordion>
                             </div>
                             <div className="column2">
-                                <img className="Img_ComoFunc" src={TeachersDaybro1} alt="#" fluid />
+                                <img className="Img_ComoFunc1" src={TeachersDaybro1} alt="#" fluid />
                             </div>
                         </div>
 
                         <div className="div_Para_Graduando2">
-                            <img className="Img_ComoFunc" src={messybunbro1} alt="#" fluid />
+                            <div className="Img_ComoFunc2">
+                                <img src={messybunbro1} alt="#" fluid />
+                            </div>
                             <div className="column4">
                                 <span>Para graduando</span>
                                 <h2 className="h2ComoFuc">Como Funciona a eliminação de horas complementares </h2>
@@ -155,13 +157,13 @@ const ComoFunc = () => {
                                 </p>
                             </div>
                             <div className="column6">
-                                <img className="Img_ComoFunc" src={messybunbro2} alt="Logo" fluid />
+                                <img className="Img_ComoFunc3" src={messybunbro2} alt="Logo" fluid />
                             </div>
                         </div>
 
                         <div className="div_Para_Aluno2">
                             <div className="column7">
-                                <img className="Img_ComoFunc" src={messybunbro3} alt="" fluid />
+                                <img className="Img_ComoFunc4" src={messybunbro3} alt="" fluid />
                             </div>
                             <div className="column8">
                                 <span>Para Alumo</span>

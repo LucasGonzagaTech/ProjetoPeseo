@@ -2,7 +2,7 @@
     padding: 0 !important;
 }
 
-.Saiba_Como{
+.Saiba_Como {
     padding: 20px 0px 20px 200px;
     width: 1200px;
 }
@@ -42,7 +42,6 @@
 
 .h1ComoFunc {
     font-size: 56px;
-    line-height: 120%;
     font-weight: bold;
 }
 
@@ -56,3 +55,124 @@
     line-height: 150%;
 }
 
+@media (max-width: 1400px) {
+    .div_Para_Graduando {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 100px 48px 100px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .Img_ComoFunc1 img {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc2 img {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc3 {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc4 {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Saiba_Como {
+        text-align: center;
+        padding: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 75px 48px 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .Saiba_Como {
+        display: none;
+        /* font-size: 45px;
+        text-align: center;
+        padding: 0px;
+        margin-top: 5%;
+        margin-bottom: 5%; */
+    }
+
+    .h1ComoFunc {
+        margin: 45px;
+        padding: 0px;
+        font-size: 50px;
+    }
+
+    .divConteiner_ComoFunc {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .div_Para_Graduando {
+        display: grid;
+        padding: 48px 50px 48px 50px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 10px 48px 0px;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 0px 48px 100px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 50px 48px 0px;
+    }
+
+    .Img_ComoFunc1 {
+        width: 490px;
+        height: 490px;
+    }
+
+    .Img_ComoFunc2 img {
+        width: 442px;
+        height: 442px;
+    }
+
+    .Img_ComoFunc3 {
+        width: 442px;
+        height: 442px;
+    }
+
+    .Img_ComoFunc4 {
+        width: 442px;
+        height: 442px;
+    }
+
+    .column1 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .column2 .Img_ComoFunc2 {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
