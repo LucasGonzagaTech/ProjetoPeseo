@@ -22,10 +22,11 @@
     align-items: center;
     background-color: #f6f4fe;
     padding: 48px 200px 48px 200px;
+}
 
-    .column4 {
-        margin-left: 98px;
-    }
+
+.column4 {
+    margin-left: 98px;
 }
 
 .div_Para_Aluno {
@@ -134,14 +135,18 @@
     }
 
     .div_Para_Graduando2 {
+        display: grid;
         padding: 48px 10px 48px 0px;
+
     }
 
     .div_Para_Aluno {
+        display: grid;
         padding: 48px 0px 48px 100px;
     }
 
     .div_Para_Aluno2 {
+        display: grid;
         padding: 48px 50px 48px 0px;
     }
 
@@ -170,9 +175,40 @@
         margin-left: 150px;
     }
 
-    .column2 .Img_ComoFunc2 {
-        align-items: center;
-        justify-content: center;
+    .Img_ComoFunc1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .column4 {
+        order: -1;
+        margin-right: 150px;
+        margin-left: 200px;
+    }
+
+    .column8 {
+        order: -1;
+        margin-right: 150px;
+        margin-left: 200px;
     }
 
 }

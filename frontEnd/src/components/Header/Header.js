@@ -22,7 +22,7 @@ const Header = () => {
                         <Nav.Link href="login" className="custom_nav_link">Entrar</Nav.Link>
                     </Nav>
                     <Button className="button-Accouny" variant="primary" href="cadastro">
-                        <FontAwesomeIcon icon={faUser} /> Criar Conta
+                        <FontAwesomeIcon icon={faUser} /> Criar conta
                     </Button>
                 </Navbar.Collapse>
             </Container>

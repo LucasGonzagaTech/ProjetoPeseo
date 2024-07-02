@@ -23,7 +23,7 @@ const Sobre = () => {
 
                 <div className='sobre1'>
                     <div className='sobretxt1'>
-                        <h1 className='sobretitle1'>Uma Plataforma criada a partir da vontade de ajudar</h1>
+                        <h1 className='sobretitle1'>Uma plataforma criada a partir da vontade de ajudar</h1>
                         <p className='subTitleSobre'>Criada em 2023, o projeto PESEO é uma plataforma elaborada da vontade de auxiliar os estudantes em seus sonhos de ingressarem no curso superior que desejarem no futuro. Com aulas objetivas e dinâmicas, buscando sempre trazer diferentes experiências fornecidas em sala de aula. Aspiramos atingir as necessidades dos alunos trazendo o reforço necessário.</p>
                         <p className='subTitleSobre'>Desde a ideia inicial do projeto buscamos a diferença dentre aquilo que já foi criado. Queremos que os alunos se sintam a vontade e que aproveitem o conteúdo da plataforma, contamos também com a ajuda dos graduandos que auxiliam na matéria, os quais são exibidas e fornecidas para o auxílio de usuários da plataforma. </p>
                         <p className='subTitleSobre'>Nossa equipe produziu tudo com muito esforço e dedicação desde o primeiro instante. Desejamos que façam bom proveito de tudo!</p>
