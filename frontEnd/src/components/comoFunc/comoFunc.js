@@ -17,9 +17,12 @@ const ComoFunc = () => {
                 <Row>
                     <Col sm={12} className="no-padding">
 
-                        <div className="Saiba_Como">
-                            <h1 className="h1ComoFunc">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
+                        <div className="gtitle">
+                            <h1 className="title">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
                         </div>
+                        {/* <div className="div_Para_Graduando">
+                            <h1 className="h1ComoFuct">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
+                        </div> */}
 
                         {/* Parte do Tutor */}
 
@@ -89,60 +92,60 @@ const ComoFunc = () => {
                         </div>
 
                         <div className="div_Para_Graduando2">
-    
-                                <div className="Img_ComoFunc2">
-                                    <img src={messybunbro1} alt="#" fluid />
-                                </div>
-                                <div className="column4">
-                                    <span>Para graduandos</span>
-                                    <h2 className="h2ComoFuc">Como funciona a eliminação de horas complementares </h2>
-                                    <p className="pComoFuc">
-                                        Nossa plataforma foca em disciplinas do ensino fundamental á médio, nosso intuído
-                                        é ajudar os alunos que tenha dificuldade e precisa de um reforço educacional.
-                                    </p>
-                                    <Accordion defaultActiveKey="0">
 
-                                        <Accordion.Item eventKey="0">
-                                            <Accordion.Header>Cadastro de atividades educacionais</Accordion.Header>
-                                            <Accordion.Body>
-                                                Explorando números e formas do ensino médio, alinhada com a BNCC.
+                            <div className="column3">
+                                <img  className="Img_ComoFunc2" src={messybunbro1} alt="#" fluid />
+                            </div>
+                            <div className="column4">
+                                <span>Para graduandos</span>
+                                <h2 className="h2ComoFuc">Como funciona a eliminação de horas complementares </h2>
+                                <p className="pComoFuc">
+                                    Nossa plataforma foca em disciplinas do ensino fundamental á médio, nosso intuído
+                                    é ajudar os alunos que tenha dificuldade e precisa de um reforço educacional.
+                                </p>
+                                <Accordion defaultActiveKey="0">
 
-                                                Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
-                                                Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
-                                                colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
-                                                paixão pelo assunto.
-                                            </Accordion.Body>
-                                        </Accordion.Item>
+                                    <Accordion.Item eventKey="0">
+                                        <Accordion.Header>Cadastro de atividades educacionais</Accordion.Header>
+                                        <Accordion.Body>
+                                            Explorando números e formas do ensino médio, alinhada com a BNCC.
 
-                                        <Accordion.Item eventKey="1">
-                                            <Accordion.Header>Análise e validação pedagógica</Accordion.Header>
-                                            <Accordion.Body>
-                                                Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
-                                                Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e
-                                                geometria simples.
+                                            Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
+                                            Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
+                                            colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
+                                            paixão pelo assunto.
+                                        </Accordion.Body>
+                                    </Accordion.Item>
 
-                                                Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
-                                                Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
-                                                colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
-                                                paixão pelo assunto.
-                                            </Accordion.Body>
-                                        </Accordion.Item>
+                                    <Accordion.Item eventKey="1">
+                                        <Accordion.Header>Análise e validação pedagógica</Accordion.Header>
+                                        <Accordion.Body>
+                                            Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
+                                            Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e
+                                            geometria simples.
 
-                                        <Accordion.Item eventKey="2">
-                                            <Accordion.Header>Atribuição de horas complementares pedagógicas</Accordion.Header>
-                                            <Accordion.Body>
-                                                Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
-                                                Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e
-                                                geometria simples.
+                                            Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
+                                            Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
+                                            colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
+                                            paixão pelo assunto.
+                                        </Accordion.Body>
+                                    </Accordion.Item>
 
-                                                Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
-                                                Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
-                                                colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
-                                                paixão pelo assunto.
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-                                    </Accordion>
-                                
+                                    <Accordion.Item eventKey="2">
+                                        <Accordion.Header>Atribuição de horas complementares pedagógicas</Accordion.Header>
+                                        <Accordion.Body>
+                                            Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
+                                            Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e
+                                            geometria simples.
+
+                                            Avanço para o ensino médio com álgebra, geometria avançada e probabilidade.
+                                            Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e
+                                            colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e
+                                            paixão pelo assunto.
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
+
                             </div>
                         </div>
 
