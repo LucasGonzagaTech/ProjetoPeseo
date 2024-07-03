@@ -24,8 +24,8 @@ export default () => {
             <div className='categorias'>
                 <p>Matemática</p>
                 <p>Linguagens</p>
-                <p>Ciências da Natureza</p>
-                <p>Ciências da Natureza</p>
+                <p>Ciências da natureza</p>
+                <p>Ciências da humanas</p>
             </div>
 
 
