@@ -24,14 +24,14 @@ export default () => {
             <div className='categorias'>
                 <p>Matemática</p>
                 <p>Linguagens</p>
-                <p>Ciências Humanas</p>
+                <p>Ciências da Natureza</p>
                 <p>Ciências da Natureza</p>
             </div>
 
 
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-
+                <h1 class="h1Catalogo">Português</h1>
                     <div className='card1'>
 
                         <CardItem
@@ -76,31 +76,9 @@ export default () => {
                     </div>
                 </Carousel.Item>
 
-                <Carousel.Item>
-                    <div className='card1'>
-
-                        <CardItem
-                            title="Professora 7"
-                            imageSrc={professor}
-                            text="Descrição da aula"
-                        />
-                        <CardItem
-                            title="Professora 8"
-                            imageSrc={professor}
-                            text="Descrição da aula"
-                        />
-                        <CardItem
-                            title="Professora 9"
-                            imageSrc={professor}
-                            text="Descrição da aula"
-                        />
-
-                    </div>
-                </Carousel.Item>
-
             </Carousel>
             {/*CARROSSEL MATEMÁTICA*/}
-            <h1>Matemática</h1>
+            <h1 class="h1Catalogo">Matemática</h1>
 
 
             <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -127,23 +105,30 @@ export default () => {
                 <Carousel.Item>
                     <div className='card1'>
                         <CardItem
-                            title="Professora 1"
+                            title="Professora 4"
                             imageSrc={professor}
                             text="Descrição da aula"
                         />
                         <CardItem
-                            title="Professora 2"
+                            title="Professora 5"
                             imageSrc={professor}
                             text="Descrição da aula"
                         />
                         <CardItem
-                            title="Professora 3"
+                            title="Professora 6"
                             imageSrc={professor}
                             text="Descrição da aula"
                         />
                     </div>
                 </Carousel.Item>
 
+
+            </Carousel>
+            {/*CARROSSEL CIENCIAS DA NATUREZA*/}
+            <h1 class="h1Catalogo">Ciências da natureza</h1>
+
+
+            <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <div className='card1'>
                         <CardItem
@@ -164,10 +149,78 @@ export default () => {
                     </div>
                 </Carousel.Item>
 
+                <Carousel.Item>
+                    <div className='card1'>
+                        <CardItem
+                            title="Professora 4"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 5"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 6"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                    </div>
+                </Carousel.Item>
+
+
+            </Carousel>
+            {/*CARROSSEL MATEMÁTICA*/}
+            <h1 class="h1Catalogo">Ciências da humanas</h1>
+
+
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+                <Carousel.Item>
+                    <div className='card1'>
+                        <CardItem
+                            title="Professora 1"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 2"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 3"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <div className='card1'>
+                        <CardItem
+                            title="Professora 4"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 5"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                        <CardItem
+                            title="Professora 6"
+                            imageSrc={professor}
+                            text="Descrição da aula"
+                        />
+                    </div>
+                </Carousel.Item>
+
+
             </Carousel>
 
             {/*CATEGORIAS*/}
-            <div className='principaisCategorias'>
+            {/* <div className='principaisCategorias'>
                 <h1>Principais Categorias</h1>
 
                 <div className='session1'>
@@ -211,12 +264,12 @@ export default () => {
 
                 </div>
 
-            </div>
+            </div> */}
             {/*FIM CATEGORIAS*/}
 
 
             {/*OBJETIVOS*/}
-            <div className='objetivo'>
+            {/* <div className='objetivo'>
                 <div>
                     <img src={img1} />
                     <h2>Uma plataforma de evolução Coletiva</h2>
@@ -237,7 +290,7 @@ export default () => {
                 </div>
 
                 <img src={equipe} />
-            </div>
+            </div> */}
             {/*FIM OBJETIVOS*/}
         </>
     )
