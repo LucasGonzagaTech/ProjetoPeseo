@@ -2,19 +2,19 @@
     padding: 0 !important;
 }
 
-.Saiba_Como{
+/* .Saiba_Como {
     padding: 20px 0px 20px 200px;
     width: 1200px;
-}
+} */
 
 .div_Para_Graduando {
     display: flex;
     align-items: center;
     padding: 48px 200px 48px 200px;
+}
 
-    .column1 {
-        margin-right: 98px;
-    }
+.column1 {
+    margin-right: 98px;
 }
 
 .div_Para_Graduando2 {
@@ -22,10 +22,10 @@
     align-items: center;
     background-color: #f6f4fe;
     padding: 48px 200px 48px 200px;
+}
 
-    .column4 {
-        margin-left: 98px;
-    }
+.column4 {
+    margin-left: 98px;
 }
 
 .div_Para_Aluno {
@@ -40,10 +40,15 @@
     padding: 48px 200px 48px 200px;
 }
 
-.h1ComoFunc {
-    font-size: 56px;
-    line-height: 120%;
-    font-weight: bold;
+.gtitle {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 200px 0px;
+}
+
+.gtitle h1 {
+    font-size: 60px;
 }
 
 .h2ComoFuc {
@@ -56,3 +61,386 @@
     line-height: 150%;
 }
 
+@media (max-width: 1400px) {
+    .div_Para_Graduando {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 100px 48px 100px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .Img_ComoFunc1 img {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc2 img {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc3 {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Img_ComoFunc4 {
+        width: 542px;
+        height: 542px;
+    }
+
+    .Saiba_Como {
+        text-align: center;
+        padding: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 75px 48px 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .gtitle h1 {
+        font-size: 55px;
+    }
+
+    .divConteiner_ComoFunc {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .div_Para_Graduando {
+        display: grid;
+        padding: 48px 50px 48px 50px;
+    }
+
+    .div_Para_Graduando2 {
+        display: grid;
+        padding: 48px 10px 48px 0px;
+
+    }
+
+    .div_Para_Aluno {
+        display: grid;
+        padding: 48px 100px 48px 100px;
+    }
+
+    .div_Para_Aluno2 {
+        display: grid;
+        padding: 48px 100px 48px 100px;
+    }
+
+    .Img_ComoFunc1 {
+        width: 490px;
+        height: 490px;
+    }
+
+    .Img_ComoFunc2 img {
+        width: 442px;
+        height: 442px;
+    }
+
+    .Img_ComoFunc3 {
+        width: 442px;
+        height: 442px;
+    }
+
+    .Img_ComoFunc4 {
+        width: 442px;
+        height: 442px;
+    }
+
+    .column1 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .Img_ComoFunc1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Img_ComoFunc4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .column4 {
+        order: -1;
+        margin-right: 150px;
+        margin-left: 200px;
+    }
+
+    .column8 {
+        order: -1;
+        margin-right: 150px;
+        margin-left: 200px;
+    }
+
+    .column5 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .gtitle {
+        margin: 50px 100px 0px;
+    }
+
+    .gtitle h1 {
+        font-size: 50px;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .column1 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .column4 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .column5 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .column8 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+}
+
+
+@media (max-width: 700px) {
+
+    .gtitle {
+        margin: 50px 100px 0px;
+    }
+
+    .gtitle h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .gtitle {
+        margin: 50px 75px 0px;
+    }
+
+    .gtitle h1 {
+        font-size: 40px;
+    }
+
+    .column1 {
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+
+    .div_Para_Graduando {
+        padding: 48px 50px 48px 50px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 50px 48px 50px;
+    }
+
+    .column4 {
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+
+    .column5 {
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+
+    .h2ComoFuc {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 50px 48px 50px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 50px 48px 50px;
+    }
+
+    .column8 {
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .gtitle {
+        margin: 50px 25px 0px;
+    }
+
+    .gtitle h1 {
+        font-size: 37px;
+    }
+
+    .Img_ComoFunc1 {
+        width: 390px;
+        height: 390px;
+    }
+
+    .div_Para_Graduando {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .column1 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column4 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column5 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column8 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .gtitle {
+        margin: 50px 25px 0px;
+    }
+
+    .gtitle h1 {
+        font-size: 37px;
+    }
+
+    .Img_ComoFunc1 {
+        width: 390px;
+        height: 390px;
+    }
+
+    .Img_ComoFunc2 {
+        width: 330px;
+        height: 330px;
+    }
+
+    .Img_ComoFunc3 {
+        width: 330px;
+        height: 330px;
+    }
+
+    .Img_ComoFunc4 {
+        width: 330px;
+        height: 330px;
+    }
+
+    /* .div_Para_Graduando {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Graduando2 {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Aluno {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .div_Para_Aluno2 {
+        padding: 48px 0px 48px 0px;
+    }
+
+    .column1 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column4 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column5 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column8 {
+        margin-right: 50px;
+        margin-left: 50px;
+    } */
+}
+
+/* .Saiba_Como {
+        margin: 0 auto;
+    } */
+
+/* .h1ComoFunc {
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+        background-color: red;
+    } */

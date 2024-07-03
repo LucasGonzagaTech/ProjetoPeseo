@@ -44,7 +44,7 @@ function Login() {
             <Container className='containerLogin'>
                 <section className='login' onSubmit={handleLogin}>
                     <form className='login2'>
-                        <h1 className='facaLogin'>Faça Login na PESEO</h1>
+                        <h1 className='facaLogin'>Faça login na PESEO</h1>
 
                         <a href='#'><img src={Google} alt="Continuar com o google" /></a>
 
@@ -66,7 +66,7 @@ function Login() {
 
                         <div>
                             <p className='paragrafo'>Esqueceu sua senha? <a href='#'>Altere agora</a></p>
-                            <p className='paragrafo'>Não tem cadastro?<a href='cadastro'>Cadastre-se</a></p>
+                            <p className='paragrafo'>Não tem cadastro? <a href='cadastro'>Cadastre-se</a></p>
                         </div>
                     </form>
                 </section>

@@ -17,25 +17,28 @@ const ComoFunc = () => {
                 <Row>
                     <Col sm={12} className="no-padding">
 
-                        <div className="Saiba_Como">
-                            <h1 className="h1ComoFunc">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
+                        <div className="gtitle">
+                            <h1 className="title">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
                         </div>
+                        {/* <div className="div_Para_Graduando">
+                            <h1 className="h1ComoFuct">Saiba mais o que nossa plataforma tem a oferecer e como ela funciona.</h1>
+                        </div> */}
 
                         {/* Parte do Tutor */}
 
                         <div className="div_Para_Graduando">
                             <div className="column1">
-                                <span>Para graduando</span>
-                                <h2 className="h2ComoFuc">Qual Matéria eu posso dar?</h2>
+                                <span>Para graduandos</span>
+                                <h2 className="h2ComoFuc">Qual matéria eu posso dar?</h2>
                                 <p className="pComoFuc">
-                                Nossa plataforma é foca em disciplinas do ensino fundamental ao médio. Nosso intuito é auxiliar os alunos que tenham dificuldades e precisem de um reforço educacional.
+                                    Nossa plataforma é foca em disciplinas do ensino fundamental ao médio. Nosso intuito é auxiliar os alunos que tenham dificuldades e precisem de um reforço educacional.
                                 </p>
                                 <Accordion defaultActiveKey="0">
 
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>Trilha - Matemática</Accordion.Header>
                                         <Accordion.Body>
-                                        Explorando números e formas do ensino médio, alinhada com a BNCC.  Avanço para o ensino médio com álgebra, geometria avançada e probabilidade. Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e paixão pelo assunto.
+                                            Explorando números e formas do ensino médio, alinhada com a BNCC.  Avanço para o ensino médio com álgebra, geometria avançada e probabilidade. Biblioteca de recursos digitais e comunidade de aprendizado para aprofundamento e colaboração. Uma jornada emocionante para desenvolver habilidades matemáticas e paixão pelo assunto.
                                         </Accordion.Body>
                                     </Accordion.Item>
 
@@ -54,7 +57,7 @@ const ComoFunc = () => {
                                     </Accordion.Item>
 
                                     <Accordion.Item eventKey="2">
-                                        <Accordion.Header>Trilha - Ciências Humanas</Accordion.Header>
+                                        <Accordion.Header>Trilha - Ciências humanas</Accordion.Header>
                                         <Accordion.Body>
                                             Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
                                             Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e
@@ -68,7 +71,7 @@ const ComoFunc = () => {
                                     </Accordion.Item>
 
                                     <Accordion.Item eventKey="3">
-                                        <Accordion.Header>Trilha - Ciências da Natureza</Accordion.Header>
+                                        <Accordion.Header>Trilha - Ciências da natureza</Accordion.Header>
                                         <Accordion.Body>
                                             Explorando números e formas do ensino fundamental ao médio, alinhada com a BNCC.
                                             Fundamentos matemáticos no ensino fundamental, incluindo operações básicas e geometria
@@ -84,15 +87,18 @@ const ComoFunc = () => {
                                 </Accordion>
                             </div>
                             <div className="column2">
-                                <img className="Img_ComoFunc" src={TeachersDaybro1} alt="#" fluid />
+                                <img className="Img_ComoFunc1" src={TeachersDaybro1} alt="#" fluid />
                             </div>
                         </div>
 
                         <div className="div_Para_Graduando2">
-                            <img className="Img_ComoFunc" src={messybunbro1} alt="#" fluid />
+
+                            <div className="column3">
+                                <img  className="Img_ComoFunc2" src={messybunbro1} alt="#" fluid />
+                            </div>
                             <div className="column4">
-                                <span>Para graduando</span>
-                                <h2 className="h2ComoFuc">Como Funciona a eliminação de horas complementares </h2>
+                                <span>Para graduandos</span>
+                                <h2 className="h2ComoFuc">Como funciona a eliminação de horas complementares </h2>
                                 <p className="pComoFuc">
                                     Nossa plataforma foca em disciplinas do ensino fundamental á médio, nosso intuído
                                     é ajudar os alunos que tenha dificuldade e precisa de um reforço educacional.
@@ -139,6 +145,7 @@ const ComoFunc = () => {
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
+
                             </div>
                         </div>
 
@@ -147,25 +154,25 @@ const ComoFunc = () => {
                         <div className="div_Para_Aluno">
 
                             <div className="column5">
-                                <span>Para Alumo</span>
-                                <h2 className="h2ComoFuc">Veja aulas gravadas por universitatios e aprenda junto com eles</h2>
+                                <span>Para alunos</span>
+                                <h2 className="h2ComoFuc">Veja aulas gravadas por universitários e aprenda junto com eles</h2>
                                 <p className="pComoFuc">Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
                                     uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
                                     Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.
                                 </p>
                             </div>
                             <div className="column6">
-                                <img className="Img_ComoFunc" src={messybunbro2} alt="Logo" fluid />
+                                <img className="Img_ComoFunc3" src={messybunbro2} alt="Logo" fluid />
                             </div>
                         </div>
 
                         <div className="div_Para_Aluno2">
                             <div className="column7">
-                                <img className="Img_ComoFunc" src={messybunbro3} alt="" fluid />
+                                <img className="Img_ComoFunc4" src={messybunbro3} alt="" fluid />
                             </div>
                             <div className="column8">
-                                <span>Para Alumo</span>
-                                <h2 className="h2ComoFuc">Responda questionarios para melhorar seu aprendizado</h2>
+                                <span>Para alunos</span>
+                                <h2 className="h2ComoFuc">Responda questionários para melhorar seu aprendizado</h2>
                                 <p className="pComoFuc">Nesta plataforma online, você pode acessar aulas gravadas por universitários, oferecendo
                                     uma oportunidade única de aprender com a experiência compartilhada durante seus cursos.
                                     Assista quantas vezes quiser para aprofundar seu conhecimento em diversas áreas.

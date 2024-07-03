@@ -18,28 +18,28 @@ const Footer = () => {
                 <div className="class-footerLinks">
 
                     <div className="column_Duvida">
-                        <p className="FontTitle">Duvida ?</p>
-                        <Button>Fale Conosco</Button>
+                        <p className="FontTitle">Duvida?</p>
+                        <Button>Fale conosco</Button>
                     </div>
 
                     <div className="column_Trilhas">
                         <p className="FontTitle">Trilhas</p>
                         <p className="FontPadrao">Matemática</p>
                         <p className="FontPadrao">Linguagens</p>
-                        <p className="FontPadrao">Ciencias da Natureza</p>
-                        <p className="FontPadrao">Ciencias Humanas</p>
+                        <p className="FontPadrao">Ciencias da natureza</p>
+                        <p className="FontPadrao">Ciencias humanas</p>
                     </div>
 
                     <div className="column_Sobre">
                         <p className="FontTitle">Sobre</p>
-                        <p className="FontPadrao">Politica de Privacidade</p>
-                        <p className="FontPadrao">Termos de Uso</p>
-                        <p className="FontPadrao">Direitos Autorais</p>
+                        <p className="FontPadrao">Politica de privacidade</p>
+                        <p className="FontPadrao">Termos de uso</p>
+                        <p className="FontPadrao">Direitos autorais</p>
                     </div>
 
                     <div className="column_Suporte">
                         <p className="FontTitle">Suporte</p>
-                        <p className="FontPadrao">Central de Ajuda</p>
+                        <p className="FontPadrao">Central de ajuda</p>
                         <a href="peseopj@outlook.com">peseopj@outlook.com</a>
                     </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
 
                 <div className="column_Copyright">
                     <p>Copyright © 2024 PESEO</p>
-                    <p>Queremos Seu Feedback</p>
+                    <p>Queremos seu feedback!</p>
                 </div>
 
             </div>

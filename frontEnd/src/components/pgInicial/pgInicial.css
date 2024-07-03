@@ -962,6 +962,18 @@
     .txtG4 p {
         margin: 20px;
     }
+
+    .imgG5 img {
+        width: 512px;
+        height: 472px;
+    }
+
+    .imgG7 img {
+        width: 486px;
+        height: 402px;
+    }
+
+
 }
 
 @media (max-width: 575px) {

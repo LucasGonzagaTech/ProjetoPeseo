@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.geralSobre{
+.geralSobre {
     margin-top: 5%;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.titleSobre1{
+.titleSobre1 {
     font-size: 60px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-
 }
 
-.divBtnSobre{
+.divBtnSobre {
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.btnSobre{
+.btnSobre {
     background-color: #2122ff;
-    color: #ffff; 
+    color: #ffff;
     width: 220px;
     height: 55px;
     border-radius: 10px;
@@ -44,7 +43,7 @@
     font-style: normal;
 }
 
-.btnSobre:hover{
+.btnSobre:hover {
     background-color: #4242fa;
     font-size: 21px;
     -xpedu-transform: scale(0.1);
@@ -52,17 +51,17 @@
     transition: 600ms linear;
 }
 
-.sobre1{
+.sobre1 {
     margin-top: 5%;
     display: flex;
     align-items: center;
 }
 
-.sobretxt1{
+.sobretxt1 {
     margin-right: 20%;
 }
 
-.sobretitle1{
+.sobretitle1 {
     color: #3de16c;
     font-size: 30px;
     font-family: "Roboto", sans-serif;
@@ -70,7 +69,7 @@
     font-style: normal;
 }
 
-.subTitleSobre{
+.subTitleSobre {
     margin-top: 20px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -79,19 +78,19 @@
     color: #6c757d;
 }
 
-.sobre2{
+.sobre2 {
     margin-top: 5%;
     display: flex;
     align-items: center;
 }
 
-.sobretxt2{
+.sobretxt2 {
 
     margin-right: 5%;
     margin-left: 10%;
 }
 
-.sobretitle2{
+.sobretitle2 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -99,7 +98,7 @@
     color: #407bff;
 }
 
-.subTitleSobre2{
+.subTitleSobre2 {
     margin-top: 20px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -109,18 +108,18 @@
     color: #6c757d;
 }
 
-.sobre3{
+.sobre3 {
     margin-top: 5%;
     display: flex;
     align-items: center;
 }
 
-.sobretxt3{
+.sobretxt3 {
     margin-right: 5%;
     margin-left: 10%;
 }
 
-.sobretitle3{
+.sobretitle3 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -128,7 +127,7 @@
     color: #3de16c;
 }
 
-.subTitleSobre3{
+.subTitleSobre3 {
     margin-top: 20px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -138,13 +137,13 @@
     color: #6c757d;
 }
 
-.sobreContato{
+.sobreContato {
     margin-top: 5%;
     text-align: center;
     margin-bottom: 10%;
 }
 
-.titleContato{
+.titleContato {
     font-size: 50px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -152,7 +151,7 @@
     color: #2122ff;
 }
 
-.subTitleContato{
+.subTitleContato {
     font-size: 20px;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -160,3 +159,237 @@
     font-style: normal;
 }
 
+@media (max-width: 1500px) {
+
+
+    .divBtnSobre {
+        margin: 0px;
+    }
+
+    .btnSobre {
+
+        width: 200px;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .sobretitle1 {
+        font-size: 50px;
+    }
+
+    .subTitleSobre {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .sobretitle2 {
+        font-size: 45px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #407bff;
+    }
+
+    .subTitleSobre2 {
+        font-size: 25px;
+    }
+
+    .sobretitle3 {
+        font-size: 45px;
+    }
+
+    .subTitleSobre3 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+    .geralSobre {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sobre1 {
+        margin-top: 10%;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sobretxt1 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .sobre2 {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .sobretxt2 {
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .sobretxt2 {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .sobretxt3 {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .sobre2 {
+        margin-top: 10%;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sobre3 {
+        margin-top: 10%;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sobretxt2 {
+        order: -1;
+    }
+
+    .sobretxt2 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .sobretitle3 {
+        margin-top: 5%;
+    }
+
+    .img3 img {
+        margin-bottom: 5%;
+    }
+
+    .titleContato {
+        font-size: 40px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .sobretitle1 {
+        font-size: 40px;
+    }
+
+    .divBtnSobre {
+        align-items: center;
+        justify-content: center;
+        /* margin: 10px; */
+    }
+
+    .subTitleSobre {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .sobretxt1 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .sobretxt2 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .sobretitle1 {
+        font-size: 40px;
+    }
+
+    .divBtnSobre {
+        align-items: center;
+        justify-content: center;
+        /* margin: 10px; */
+    }
+
+    .subTitleSobre {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .sobretxt1 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .sobretxt2 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .img1 img {
+        width: 465px;
+        height: 465px;
+    }
+
+    .img2 img {
+        width: 395px;
+        height: 395px;
+    }
+
+    .img2 img {
+        width: 382px;
+        height: 382px;
+    }
+
+    .sobretxt2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sobretxt3 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .img1 img {
+        width: 365px;
+        height: 365px;
+    }
+
+    .img3 img {
+        width: 382px;
+        height: 382px;
+    }
+
+}
